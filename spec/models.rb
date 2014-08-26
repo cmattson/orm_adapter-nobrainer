@@ -8,5 +8,5 @@ end
 class Note
   include NoBrainer::Document
   field :body, default: 'made by orm'
-  belongs_to :user, foreign_key: :owner_id
+  belongs_to :owner, foreign_key: :owner_id, class_name: 'User'
 end
