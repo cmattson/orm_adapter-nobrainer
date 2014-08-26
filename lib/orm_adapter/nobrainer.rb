@@ -1,4 +1,4 @@
-require "orm_adapter/nobrainer/version"
+require 'orm_adapter/nobrainer/version'
 
 module OrmAdapter
   module Nobrainer
