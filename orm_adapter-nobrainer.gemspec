@@ -5,7 +5,7 @@ require 'orm_adapter/nobrainer/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'orm_adapter-nobrainer'
-  spec.version       = OrmAdapter::Nobrainer::VERSION
+  spec.version       = OrmAdapterNoBrainer::VERSION
   spec.summary       = %q{NoBrainer support for orm_adapter}
   # spec.description   = %q{TODO: Write a longer description. Optional.}
   spec.homepage      = 'https://github.com/cmattson/orm_adapter-nobrainer'

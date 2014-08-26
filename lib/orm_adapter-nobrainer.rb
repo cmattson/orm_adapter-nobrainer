@@ -1,7 +1,3 @@
-require 'orm_adapter/nobrainer/version'
-
-module OrmAdapter
-  module Nobrainer
-    # Your code goes here...
-  end
-end
+require 'orm_adapter'
+require 'orm_adapter-nobrainer/version'
+require 'orm_adapter-nobrainer/nobrainer'
